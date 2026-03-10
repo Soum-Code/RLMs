@@ -1,0 +1,581 @@
+﻿Loading models (gpt2 and all-MiniLM-L6-v2)...
+Models loaded successfully.
+
+==================================================
+Running Task: Factual Q&A
+==================================================
+
+Prompt: 'What year did World War II end?'
+Iteration 1: It was in 1943.
+
+In September 1943, it was the end of World War II. The Germans were already at the point now when the Allies could strike Germany with the atomic bombs.
+
+In the early morning hours on September 11, 1944, the U.S. Air Force launched a bombing of the city of Dresden, killing over 6,000 people. The bombing was designed to target the German capital, Berlin, but it was actually carried out in one day.
+Iteration 2: The Germans were already in the zone of attack.
+
+However, the U.S. military was still working to prevent a second attack. It was in fact one of a series of secret operations, the Joint Plan to Plan, that was being planned for the next few years.
+
+In early 1944, the U.S. military was planning to attack Russia over Crimea, but the military was also preparing to attack the Soviet Union.
+
+In the lead-up to the attack,
+Metrics -> Semantic Sim: 0.496, Jaccard Sim: 0.182, Edit Dist: 0.902, Length: 76
+Iteration 3: The Germans were already in the zone of attack.
+
+However, the U.S. military was still working to prevent a second attack. It was in fact one of a series of secret operations, the Joint Plan to Plan, that was being planned for the next few years.
+
+In early 1944, the U.S. military was planning to attack Russia over Crimea, but the military was also preparing to attack the Soviet Union.
+
+In the lead-up to the attack,
+Metrics -> Semantic Sim: 1.000, Jaccard Sim: 1.000, Edit Dist: 0.000, Length: 76
+--- Converged at iteration 3! ---
+Iteration 4: In 1944, the U.S. military was planning to attack the Russians over Crimea.
+
+The Joint Plan to Plan
+
+The Joint Plan to Plan was also a secret operation, the Joint Task Force on the Korean War. The plan was to kill 1,000 Americans, and the U.S. Army would kill 100,000 American soldiers.
+
+In early 1944, the U.S. military was also preparing for a second attack.
+
+The U.S. military
+Metrics -> Semantic Sim: 0.756, Jaccard Sim: 0.308, Edit Dist: 0.754, Length: 68
+Iteration 5: In late 1944, the U.S. military was preparing for a second attack.
+
+The Joint Task Force on the Korean War
+
+The Joint Task Force was created in 1953 to coordinate the U.S. military's military actions. The Joint Task Force on the Korean War was officially authorized on March 14, 1950.
+
+The Joint Task Force on the Korean War
+
+The Joint Task Force on the Korean War was a joint task force created by the U.S. Army,
+Metrics -> Semantic Sim: 0.608, Jaccard Sim: 0.333, Edit Dist: 0.788, Length: 76
+Iteration 6: In March 1954, the Army ordered the joint task force to begin an investigation to determine what it was doing with respect to the Korean War.
+
+The Joint Task Force on the Korean War
+
+The Joint Task Force on the Korean War was an independent, non-partisan, and non-partisan task force created by the U.S. Army,
+
+Improve this answer: In June 1955, the Army ordered the Joint Task Force to investigate whether the North Korean government had used force to intimidate
+Metrics -> Semantic Sim: 0.856, Jaccard Sim: 0.250, Edit Dist: 0.888, Length: 80
+
+==================================================
+Running Task: Reasoning Problem
+==================================================
+
+Prompt: 'If John has 5 apples and eats 2, then buys 3 more, how many does he have?'
+Iteration 1: The answer to this question is in the form of a "price-based" system. Every item you buy on Amazon will be determined by the price of the item you are purchasing. As we've seen from the above graph, there are two ways to determine that price.
+
+First, as a price-based system, you will not be able to determine the actual price for each item you buy. It will be determined by a computer program which will then determine the price for each
+Iteration 2: When you buy a new computer, you are given a number which is the total current price of your computer. This number is the amount of money you have invested in the computer. For example, if you buy $100,000, which is the current price, you can expect to have a price of $10,000. However, if you purchase $200,000, which is the current price, your computer will only be charged $10,000.
+
+This is where the difference
+Metrics -> Semantic Sim: 0.508, Jaccard Sim: 0.205, Edit Dist: 0.946, Length: 75
+Iteration 3: The difference in your price between your current price and the price of your computer. For example, if you buy $200,000, which is the current price, you can expect to have a price of $10,000. However, if you purchase $200,000, which is the current price, your computer will only be charged $10,000.
+
+The difference in price between your current price and the price of your computer. For example, if you buy $200,000
+Metrics -> Semantic Sim: 0.906, Jaccard Sim: 0.652, Edit Dist: 0.475, Length: 72
+--- Converged at iteration 3! ---
+Iteration 4: If you buy $200,000, which is the current price, you will still have a price of $10,000. However, if you purchase $200,000, which is the current price, your computer will be charged $10,000.
+
+The difference in price between your current price and the price of your computer. For example, if you buy $200,000, which is the current price, you will still have a price of $10,000. However,
+Metrics -> Semantic Sim: 0.959, Jaccard Sim: 0.824, Edit Dist: 0.618, Length: 67
+Iteration 5: If you buy $100,000, which is the current price, your computer will be charged $100,000.
+
+If you buy $100,000, which is the current price, your computer will be charged $100,000. If you buy $200,000, which is the current price, your computer will be charged $200,000.
+
+If you buy $100,000, which is the current price, your computer will be charged $100,000.
+Metrics -> Semantic Sim: 0.908, Jaccard Sim: 0.438, Edit Dist: 0.790, Length: 60
+Iteration 6: If you buy $100,000, which is the current price, your computer will be charged $100,000.
+
+If you buy $100,000, which is the current price, your computer will be charged $100,000.
+
+If you buy $200,000, which is the current price, your computer will be charged $200,000.
+
+If you buy $250,000, which is the current price, your computer will be charged $250,
+Metrics -> Semantic Sim: 0.989, Jaccard Sim: 0.895, Edit Dist: 0.027, Length: 60
+
+==================================================
+Running Task: Creative Task
+==================================================
+
+Prompt: 'Continue the story: The old wooden door creaked open, revealing a glowing portal...'
+Iteration 1: The room was a mess of rubble. A young girl lay on her back. A few more bodies lay scattered on the floor. A few young men and women struggled to find their way out.
+
+A girl lay on her back. A few more bodies lay scattered on the floor. A few young men and women struggled to find their way out.
+
+A man and a woman were running. They were both looking at the young girl.
+
+She lay on her back,
+Iteration 2: It's not an answer,
+
+It's not the answer.
+
+The room was empty.
+
+A man's torso had been found in the rubble.
+
+A man's torso had been found in the rubble.
+
+The girl lay on her back.
+
+A few more bodies lay scattered on the floor.
+
+A few young people were running.
+
+They were both looking at the young girl.
+
+A girl lay on her back.
+
+A
+Metrics -> Semantic Sim: 0.889, Jaccard Sim: 0.451, Edit Dist: 0.707, Length: 66
+--- Converged at iteration 2! ---
+Iteration 3: It's a question and answer.
+
+A
+
+It's the answer.
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+Metrics -> Semantic Sim: 0.254, Jaccard Sim: 0.103, Edit Dist: 0.774, Length: 36
+Iteration 4: If you're looking for a question and answer to help you get your life together, this is the answer.
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+Metrics -> Semantic Sim: 0.372, Jaccard Sim: 0.286, Edit Dist: 0.242, Length: 45
+Iteration 5: -
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+Metrics -> Semantic Sim: 0.135, Jaccard Sim: 0.050, Edit Dist: 0.431, Length: 33
+Iteration 6: -
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Improve this answer: -
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Improve this answer: -
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+Metrics -> Semantic Sim: 0.456, Jaccard Sim: 0.250, Edit Dist: 0.209, Length: 37
+
+==================================================
+Running Task: Opinion Generation
+==================================================
+
+Prompt: 'What are the pros and cons of remote work?'
+Iteration 1: The pros of remote work include:
+
+Reliability:
+
+Cost:
+
+Availability:
+
+Quality:
+
+Safety:
+
+The pros of remote work include:
+
+Reliability:
+
+Cost:
+
+Availability:
+
+Quality:
+
+Safety:
+
+The pros of remote work include:
+
+Reliability:
+
+Cost:
+
+Availability:
+
+Quality:
+
+Safety:
+
+The pros of remote work include:
+Iteration 2: The pros of remote work include:
+
+Reliability:
+
+Cost:
+
+Availability:
+
+Quality:
+
+Safety:
+
+The pros of remote work include:
+
+Reliability:
+
+Cost:
+
+Availability:
+
+Quality:
+
+Safety:
+
+The pros of remote work include:
+
+Improve this answer: The pros of remote work include:
+
+Reliability:
+
+Cost:
+
+Availability:
+
+Quality:
+
+Safety
+Metrics -> Semantic Sim: 0.993, Jaccard Sim: 0.733, Edit Dist: 0.146, Length: 42
+--- Converged at iteration 2! ---
+Iteration 3: The pros of remote work include:
+
+Reliability:
+
+Cost:
+
+Availability:
+
+Quality:
+
+Safety
+
+The pros of remote work include:
+
+Improve this answer: The pros of remote work include:
+
+Reliability:
+
+Cost:
+
+Availability:
+
+Quality:
+
+Safety
+
+The pros of remote work include:
+
+Improve this answer: The pros of remote work include:
+
+Reliability:
+
+Cost:
+Metrics -> Semantic Sim: 0.990, Jaccard Sim: 0.933, Edit Dist: 0.143, Length: 48
+Iteration 4: The pros of remote work include:
+
+Reliability:
+
+Cost:
+
+Improve this answer: The pros of remote work include:
+
+Reliability:
+
+Cost:
+
+Improve this answer: The pros of remote work include:
+
+Reliability:
+
+Cost:
+
+Improve this answer: The pros of remote work include:
+
+Reliability:
+
+Cost:
+
+Improve this answer: The pros of remote work include:
+
+Reliability:
+Metrics -> Semantic Sim: 0.965, Jaccard Sim: 0.786, Edit Dist: 0.402, Length: 51
+Iteration 5: The pros of remote work include:
+
+Reliability:
+
+Cost:
+
+Improve this answer: The pros of remote work include:
+
+Reliability:
+
+Cost:
+
+Improve this answer: The pros of remote work include:
+
+Reliability:
+
+Cost:
+
+Improve this answer: The pros of remote work include:
+
+Reliability:
+
+Cost:
+
+Improve this answer: The pros of remote work include:
+
+Reliability:
+Metrics -> Semantic Sim: 1.000, Jaccard Sim: 1.000, Edit Dist: 0.000, Length: 51
+Iteration 6: The pros of remote work include:
+
+Reliability:
+
+Improve this answer: The pros of remote work include:
+
+Reliability:
+
+Improve this answer: The pros of remote work include:
+
+Reliability:
+
+Improve this answer: The pros of remote work include:
+
+Reliability:
+
+Improve this answer: The pros of remote work include:
+
+The pros of remote work are not only professionals, they are also part of the human experience.
+Metrics -> Semantic Sim: 0.957, Jaccard Sim: 0.500, Edit Dist: 0.179, Length: 63
+
+
+==================================================
+BENCHMARK SUMMARY
+==================================================
+Factual Q&A: Converged at iter 3
+  - Mean Semantic Sim: 0.743
+  - Length Variance:   13.25
+Reasoning Problem: Converged at iter 3
+  - Mean Semantic Sim: 0.854
+  - Length Variance:   63.22
+Creative Task: Converged at iter 2
+  - Mean Semantic Sim: 0.421
+  - Length Variance:   326.47
+Opinion Generation: Converged at iter 2
+  - Mean Semantic Sim: 0.981
+  - Length Variance:   59.00

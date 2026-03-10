@@ -1,0 +1,424 @@
+{
+  "validation_results": {
+    "accuracy_tests": {
+      "prompt_1": {
+        "0.8": {
+          "avg_similarity": 0.597883959611257,
+          "keyword_stability": 0.0,
+          "iterations_used": 4,
+          "quality_score": 0.0
+        },
+        "0.85": {
+          "avg_similarity": 0.5284238159656525,
+          "keyword_stability": 0.19999999999999998,
+          "iterations_used": 4,
+          "quality_score": 0.10568476319313048
+        },
+        "0.9": {
+          "avg_similarity": 0.9700082739194235,
+          "keyword_stability": 0.6666666666666666,
+          "iterations_used": 4,
+          "quality_score": 0.6466721826129489
+        },
+        "0.95": {
+          "avg_similarity": 0.7996997038523356,
+          "keyword_stability": 0.12454212454212454,
+          "iterations_used": 4,
+          "quality_score": 0.0995963001134777
+        }
+      },
+      "prompt_2": {
+        "0.8": {
+          "avg_similarity": 0.6312772730986277,
+          "keyword_stability": 0.25,
+          "iterations_used": 4,
+          "quality_score": 0.15781931827465692
+        },
+        "0.85": {
+          "avg_similarity": 0.608948161204656,
+          "keyword_stability": 0.023809523809523808,
+          "iterations_used": 4,
+          "quality_score": 0.014498765742968
+        },
+        "0.9": {
+          "avg_similarity": 0.6617311239242554,
+          "keyword_stability": 0.10714285714285714,
+          "iterations_used": 4,
+          "quality_score": 0.07089976327759878
+        },
+        "0.95": {
+          "avg_similarity": 0.7005809942881266,
+          "keyword_stability": 0.13500388500388502,
+          "iterations_used": 4,
+          "quality_score": 0.09458115598878167
+        }
+      },
+      "prompt_3": {
+        "0.8": {
+          "avg_similarity": 0.7488031983375549,
+          "keyword_stability": 0.19814814814814816,
+          "iterations_used": 4,
+          "quality_score": 0.148373967077997
+        },
+        "0.85": {
+          "avg_similarity": 0.9581455787022909,
+          "keyword_stability": 0.6700336700336701,
+          "iterations_used": 4,
+          "quality_score": 0.6419897985244306
+        },
+        "0.9": {
+          "avg_similarity": 0.9025654196739197,
+          "keyword_stability": 0.6285714285714286,
+          "iterations_used": 4,
+          "quality_score": 0.5673268352236066
+        },
+        "0.95": {
+          "avg_similarity": 0.5613046785195669,
+          "keyword_stability": 0.40740740740740744,
+          "iterations_used": 4,
+          "quality_score": 0.22867968384130505
+        }
+      }
+    },
+    "efficiency_tests": {
+      "gpt2": {
+        "execution_time": 25.92202854156494,
+        "memory_usage_mb": 0.0,
+        "iterations_per_second": 0.115731683390041,
+        "avg_time_per_iteration": 8.640676180521647
+      }
+    },
+    "robustness_tests": {
+      "test_1": {
+        "prompt_type": "vague",
+        "successful_iterations": 3,
+        "total_iterations": 3,
+        "success_rate": 1.0,
+        "handled_gracefully": true
+      },
+      "test_2": {
+        "prompt_type": "empty",
+        "successful_iterations": 3,
+        "total_iterations": 3,
+        "success_rate": 1.0,
+        "handled_gracefully": true
+      },
+      "test_3": {
+        "prompt_type": "nonsensical",
+        "successful_iterations": 3,
+        "total_iterations": 3,
+        "success_rate": 1.0,
+        "handled_gracefully": true
+      },
+      "test_4": {
+        "prompt_type": "simple",
+        "successful_iterations": 3,
+        "total_iterations": 3,
+        "success_rate": 1.0,
+        "handled_gracefully": true
+      },
+      "test_5": {
+        "prompt_type": "constrained",
+        "successful_iterations": 3,
+        "total_iterations": 3,
+        "success_rate": 1.0,
+        "handled_gracefully": true
+      }
+    },
+    "usability_tests": {
+      "Quick Answer": {
+        "total_time_seconds": 18.344706058502197,
+        "within_time_budget": false,
+        "time_budget": 10,
+        "efficiency_ratio": 1.8344706058502198
+      },
+      "Detailed Analysis": {
+        "total_time_seconds": 18.76640224456787,
+        "within_time_budget": true,
+        "time_budget": 30,
+        "efficiency_ratio": 0.6255467414855957
+      },
+      "Real-time Interaction": {
+        "total_time_seconds": 18.36356210708618,
+        "within_time_budget": false,
+        "time_budget": 5,
+        "efficiency_ratio": 3.6727124214172364
+      }
+    }
+  },
+  "optimization_results": {
+    "best_configuration": {
+      "similarity_threshold": 0.85,
+      "max_iterations": 3,
+      "temperature": 0.7
+    },
+    "best_score": 0.8849388659000396,
+    "trials": [
+      {
+        "config": {
+          "similarity_threshold": 0.8,
+          "max_iterations": 3,
+          "temperature": 0.5
+        },
+        "score": 0.7097392201423645
+      },
+      {
+        "config": {
+          "similarity_threshold": 0.8,
+          "max_iterations": 3,
+          "temperature": 0.7
+        },
+        "score": 0.6229234710335732
+      },
+      {
+        "config": {
+          "similarity_threshold": 0.8,
+          "max_iterations": 4,
+          "temperature": 0.5
+        },
+        "score": 0.8383493602275848
+      },
+      {
+        "config": {
+          "similarity_threshold": 0.8,
+          "max_iterations": 4,
+          "temperature": 0.7
+        },
+        "score": 0.7155815442403157
+      },
+      {
+        "config": {
+          "similarity_threshold": 0.8,
+          "max_iterations": 5,
+          "temperature": 0.5
+        },
+        "score": 0.5892936253547668
+      },
+      {
+        "config": {
+          "similarity_threshold": 0.8,
+          "max_iterations": 5,
+          "temperature": 0.7
+        },
+        "score": 0.7323374742269515
+      },
+      {
+        "config": {
+          "similarity_threshold": 0.85,
+          "max_iterations": 3,
+          "temperature": 0.5
+        },
+        "score": 0.6968867897987365
+      },
+      {
+        "config": {
+          "similarity_threshold": 0.85,
+          "max_iterations": 3,
+          "temperature": 0.7
+        },
+        "score": 0.8849388659000396
+      },
+      {
+        "config": {
+          "similarity_threshold": 0.85,
+          "max_iterations": 4,
+          "temperature": 0.5
+        },
+        "score": 0.7361053506533304
+      },
+      {
+        "config": {
+          "similarity_threshold": 0.85,
+          "max_iterations": 4,
+          "temperature": 0.7
+        },
+        "score": 0.48662700702746703
+      },
+      {
+        "config": {
+          "similarity_threshold": 0.85,
+          "max_iterations": 5,
+          "temperature": 0.5
+        },
+        "score": 0.6762164415419101
+      },
+      {
+        "config": {
+          "similarity_threshold": 0.85,
+          "max_iterations": 5,
+          "temperature": 0.7
+        },
+        "score": 0.7834519045054912
+      }
+    ],
+    "optimization_complete": true
+  },
+  "benchmark_results": {
+    "config_1": {
+      "configuration": {
+        "similarity_threshold": 0.8,
+        "max_iterations": 4
+      },
+      "avg_score": 0.7500006884336471,
+      "std_score": 0.09093561073144285,
+      "avg_execution_time": 36.15729606151581,
+      "reliability": 1.0
+    },
+    "config_2": {
+      "configuration": {
+        "similarity_threshold": 0.85,
+        "max_iterations": 5
+      },
+      "avg_score": 0.769668061248958,
+      "std_score": 0.008282001502811887,
+      "avg_execution_time": 47.436012387275696,
+      "reliability": 1.0
+    },
+    "config_3": {
+      "configuration": {
+        "similarity_threshold": 0.9,
+        "max_iterations": 6
+      },
+      "avg_score": 0.8345340186357497,
+      "std_score": 0.04313021361827846,
+      "avg_execution_time": 55.30746614933014,
+      "reliability": 1.0
+    }
+  },
+  "deployment_profile": {
+    "recommended_configuration": {
+      "accuracy_optimized": {
+        "threshold": 0.9
+      },
+      "efficiency_optimized": {
+        "fastest_model": "gpt2",
+        "execution_time": 25.92202854156494
+      }
+    },
+    "deployment_constraints": {
+      "robustness_requirement": true
+    },
+    "scaling_recommendations": {
+      "batch_processing_suitable": true,
+      "parallel_processing_benefit": true,
+      "memory_optimization_needed": true
+    },
+    "monitoring_requirements": {
+      "convergence_tracking": true,
+      "performance_metrics": true,
+      "error_rate_monitoring": true,
+      "resource_utilization": true
+    }
+  },
+  "dashboard_data": {
+    "accuracy_metrics": [
+      {
+        "prompt": "prompt_1",
+        "threshold": 0.8,
+        "quality_score": 0.0,
+        "avg_similarity": 0.597883959611257
+      },
+      {
+        "prompt": "prompt_1",
+        "threshold": 0.85,
+        "quality_score": 0.10568476319313048,
+        "avg_similarity": 0.5284238159656525
+      },
+      {
+        "prompt": "prompt_1",
+        "threshold": 0.9,
+        "quality_score": 0.6466721826129489,
+        "avg_similarity": 0.9700082739194235
+      },
+      {
+        "prompt": "prompt_1",
+        "threshold": 0.95,
+        "quality_score": 0.0995963001134777,
+        "avg_similarity": 0.7996997038523356
+      },
+      {
+        "prompt": "prompt_2",
+        "threshold": 0.8,
+        "quality_score": 0.15781931827465692,
+        "avg_similarity": 0.6312772730986277
+      },
+      {
+        "prompt": "prompt_2",
+        "threshold": 0.85,
+        "quality_score": 0.014498765742968,
+        "avg_similarity": 0.608948161204656
+      },
+      {
+        "prompt": "prompt_2",
+        "threshold": 0.9,
+        "quality_score": 0.07089976327759878,
+        "avg_similarity": 0.6617311239242554
+      },
+      {
+        "prompt": "prompt_2",
+        "threshold": 0.95,
+        "quality_score": 0.09458115598878167,
+        "avg_similarity": 0.7005809942881266
+      },
+      {
+        "prompt": "prompt_3",
+        "threshold": 0.8,
+        "quality_score": 0.148373967077997,
+        "avg_similarity": 0.7488031983375549
+      },
+      {
+        "prompt": "prompt_3",
+        "threshold": 0.85,
+        "quality_score": 0.6419897985244306,
+        "avg_similarity": 0.9581455787022909
+      },
+      {
+        "prompt": "prompt_3",
+        "threshold": 0.9,
+        "quality_score": 0.5673268352236066,
+        "avg_similarity": 0.9025654196739197
+      },
+      {
+        "prompt": "prompt_3",
+        "threshold": 0.95,
+        "quality_score": 0.22867968384130505,
+        "avg_similarity": 0.5613046785195669
+      }
+    ],
+    "efficiency_metrics": [
+      {
+        "model": "gpt2",
+        "execution_time": 25.92202854156494,
+        "iterations_per_second": 0.115731683390041
+      }
+    ],
+    "robustness_metrics": [
+      {
+        "test_type": "vague",
+        "success_rate": 1.0,
+        "handled_gracefully": true
+      },
+      {
+        "test_type": "empty",
+        "success_rate": 1.0,
+        "handled_gracefully": true
+      },
+      {
+        "test_type": "nonsensical",
+        "success_rate": 1.0,
+        "handled_gracefully": true
+      },
+      {
+        "test_type": "simple",
+        "success_rate": 1.0,
+        "handled_gracefully": true
+      },
+      {
+        "test_type": "constrained",
+        "success_rate": 1.0,
+        "handled_gracefully": true
+      }
+    ],
+    "usability_metrics": []
+  }
+}

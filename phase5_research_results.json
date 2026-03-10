@@ -1,0 +1,153 @@
+{
+  "meta_learning_outcomes": {
+    "Explain quantum computing in s": {
+      "context": "explanatory",
+      "recommended_strategies": [
+        "adaptive_depth",
+        "dynamic_prompting",
+        "confidence_intervention"
+      ],
+      "confidence_scores": [
+        1,
+        1,
+        1
+      ],
+      "adaptation_timestamp": 1773138451.8130393
+    },
+    "What caused the Great Depressi": {
+      "context": "causal",
+      "recommended_strategies": [
+        "adaptive_depth",
+        "dynamic_prompting",
+        "confidence_intervention"
+      ],
+      "confidence_scores": [
+        1,
+        1,
+        1
+      ],
+      "adaptation_timestamp": 1773138451.8130534
+    },
+    "Describe the water cycle proce": {
+      "context": "explanatory",
+      "recommended_strategies": [
+        "adaptive_depth",
+        "dynamic_prompting",
+        "confidence_intervention"
+      ],
+      "confidence_scores": [
+        2,
+        2,
+        2
+      ],
+      "adaptation_timestamp": 1773138451.8130584
+    }
+  },
+  "ensemble_performance": {
+    "continue_recursion": true,
+    "reason": "Ensemble consensus: similarity_score_0.50, need_more_data, efficiency_ok",
+    "expert_votes": {
+      "similarity_based": {
+        "continue_recursion": true,
+        "reason": "similarity_score_0.50"
+      },
+      "stability_based": {
+        "continue_recursion": true,
+        "reason": "need_more_data"
+      },
+      "efficiency_based": {
+        "continue_recursion": true,
+        "reason": "efficiency_ok"
+      }
+    },
+    "confidence": 0.9999999966666667
+  },
+  "continual_adaptation": {
+    "episodes_recorded": 3,
+    "adaptations_triggered": 1,
+    "improvements_detected": 1
+  },
+  "publication_readiness": {
+    "experimental_summary": {
+      "summary_statistics": {
+        "avg_convergence_score": 0.88,
+        "std_convergence_score": 0.024494897427831803,
+        "avg_execution_time": 13.166666666666666,
+        "avg_iterations": 0.0,
+        "total_experiments": 3
+      },
+      "significance_tests": {
+        "pre_post_comparison": {
+          "pre_mean": 0.75,
+          "post_mean": 0.88,
+          "improvement": 0.13,
+          "percent_improvement": 17.333333333333336
+        }
+      },
+      "effect_sizes": {},
+      "replication_status": {}
+    },
+    "paper_outline_generated": true,
+    "paper_title": "Adaptive Convergence Detection in Recursive Language Models",
+    "paper_sections": [
+      "introduction",
+      "methodology",
+      "experiments",
+      "discussion",
+      "future_work"
+    ]
+  },
+  "scalability_analysis": {
+    "base_performance": {
+      "users": 10,
+      "throughput": 5,
+      "latency_ms": 200,
+      "cpu_cores": 2,
+      "memory_gb": 4,
+      "storage_gb": 50
+    },
+    "scaling_scenarios": {
+      "scale_1.0x": {
+        "concurrent_users": 10,
+        "expected_throughput": 5.0,
+        "estimated_latency": 200.0,
+        "resource_requirements": {
+          "cpu_cores": 1,
+          "memory_gb": 4.0,
+          "storage_gb": 50.0
+        }
+      },
+      "scale_2.0x": {
+        "concurrent_users": 20,
+        "expected_throughput": 10.0,
+        "estimated_latency": 338.6294361119891,
+        "resource_requirements": {
+          "cpu_cores": 3,
+          "memory_gb": 8.0,
+          "storage_gb": 100.0
+        }
+      },
+      "scale_5.0x": {
+        "concurrent_users": 50,
+        "expected_throughput": 25.0,
+        "estimated_latency": 521.8875824868201,
+        "resource_requirements": {
+          "cpu_cores": 8,
+          "memory_gb": 20.0,
+          "storage_gb": 250.0
+        }
+      },
+      "scale_10.0x": {
+        "concurrent_users": 100,
+        "expected_throughput": 50.0,
+        "estimated_latency": 660.5170185988092,
+        "resource_requirements": {
+          "cpu_cores": 16,
+          "memory_gb": 40.0,
+          "storage_gb": 500.0
+        }
+      }
+    },
+    "resource_profiling_samples": 0
+  }
+}
